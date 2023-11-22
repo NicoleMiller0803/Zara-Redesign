@@ -1,0 +1,295 @@
+/* Reset some defult styles */
+body, h1, h2, h3, h4, h5, h6, button, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("heroImg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.TopNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.centered-ul, .centered-middle, .centered-right {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.left-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%; /* Take up full height of the screen */
+}
+
+.left-menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.left-menu li {
+  margin: 10px 0;
+}
+
+
+
+
+.centered-ul {
+  float: left;
+  padding-left: 20px;
+}
+
+.centered-middle {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  padding-left: 100px;
+}
+
+.centered-right a {
+  color: white;
+  padding-right: 10px;
+}
+
+
+/* Rest of your CSS styles */
+
+
+  /* Make the search bar transparent and modern */
+.search-bar {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white; /* Add a bottom border for a modern look */
+    color: white; /* Text color */
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px 10px; /* Add padding for better aesthetics */
+    outline: none; /* Remove the focus outline */
+  }
+  
+  /* Style the search icon */
+  .fa-search {
+    color: white;
+    font-size: 20px; /* Adjust the size as needed */
+    margin-right: 10px; /* Add some spacing between the icon and the input */
+  }
+
+
+
+.TopNav li{
+    font-size: 24px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+#zaraLogo{
+    height: 3vw;
+}
+
+.main {
+    background-image: url("heroImg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.HeroImage ul{
+  text-align: left;
+  float: left;
+}
+.HeroImage li {
+    text-align: left;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.HeroImage li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.collection {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Womens {
+    background-image: url("womensImg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+
+}
+
+.Mens {
+    background-image: url("mensImg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+
+}
+
+.Kids {
+    background-image: url("kidsImg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+
+.Home {
+    background-image: url("homeImg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+
+}
+
+.MassimoDutti {
+    background-image: url("mdImg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+
+}
+
+.Beauty {
+    background-image: url("beautyImg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+
+.footer {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 250px;
+    height: 50px;
+    background-color: rgba(130, 130, 130, 0.35);
+    border: 1px solid white;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px;
+  }
+  
+  .g1, .g2, .g3 {
+    padding: 20px; 
+  }
+  
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .g1 p, .g2 p, .g3 p {
+    font-weight: bold;
+  }
+
+
+  .signUp{
+    padding-top: 15%;
+  }
+
+  .signUp a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+  }
+
+  .grid{
+    padding-top: 10%;
+  }
+
+  .footerLinks{
+    padding-top: 10%;
+  }
+  .footerLinks ul li {
+    display: inline-block;
+    margin-right: 20px; 
+  }
+
+  
